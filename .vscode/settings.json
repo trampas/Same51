@@ -1,0 +1,8 @@
+{
+    "workbench.startupEditor": "readmemd",
+    "cmake.configureOnOpen": true,
+
+    "cmake.environment": {
+        "PATH": "./xpacks/.bin:${env:PATH}"
+    },
+}

@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "install tools",
+        "type": "shell",
+        "command": "npm install --global xpm@latest; xpm install; ",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+      },
+      {
+        "label": "install extensions",
+        "type": "shell",
+        "command": "code --install-extension ms-vscode.cpptools; code --install-extension marus25.cortex-debug;code --install-extension twxs.cmake;code --install-extension dan-c-underwood.arm;code --install-extension zixuanwang.linkerscript",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+      }
+    ]
+  }

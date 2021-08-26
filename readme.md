@@ -15,4 +15,6 @@ If you already have node.js, xpm, and VSCode extensions install you an install t
 The package.json contains the list of dependencies, ie tools (compiler, make, etc) and libraries needed to build the code.  **xpm install** will install them
 .vscode directory contains settings for the vscode editor and task commands. 
 xpacks/ directory contains the project specific tools (gcc, cmake, libraries, etc)
+build/ is the binary builds (release/debug) for the project. 
+
 
